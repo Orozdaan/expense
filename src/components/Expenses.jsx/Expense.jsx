@@ -9,7 +9,7 @@ import Card from '../UI/Card'
      {props.data.map((el)=>{
        return(
            <Card className="expenses">
-             <h1>Hello</h1>
+             
            <ExpenseItem
            title ={el.title}
            amount={el.amount}
